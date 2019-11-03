@@ -27,7 +27,7 @@ class SC{
   static const String  TITLE_ALGORITHM = 'Algorithm Start Page';
   static const String  TITLE_LOGIN = 'Login Page';
   static const String  TITLE_RESULT_DETAIL = 'Result Detail Page';
-  static const String TEXT_APPLICATION_NAME = 'EMO-KyoKan';
+  static const String TEXT_APPLICATION_NAME = 'EMO-TV';
 
 
 //  ScreenRoute
