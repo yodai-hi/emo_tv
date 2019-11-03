@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "400055767712",
+    "firebase_url": "https://emo-tv.firebaseio.com",
+    "project_id": "emo-tv",
+    "storage_bucket": "emo-tv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400055767712:android:913952940c4b34dab32fc5",
+        "android_client_info": {
+          "package_name": "com.naist.ubi.yodai.emo_tv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400055767712-onh28153tn6fgf170egmiqt2avnb1e13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naist.ubi.yodai.emo_tv",
+            "certificate_hash": "70ce31832dba05698f1e2b091923768f4f5380f9"
+          }
+        },
+        {
+          "client_id": "400055767712-2c02b0pbatks0jsgd1jbu629sot45knc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChvjU-fGbPd0bqr_N08M2q6aVBZiUw4uo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400055767712-2c02b0pbatks0jsgd1jbu629sot45knc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

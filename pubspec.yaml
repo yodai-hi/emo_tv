@@ -1,0 +1,58 @@
+name: emo_tv
+description: Application for YTV.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker:
+  flutter_native_image:
+    git: https://github.com/btastic/flutter_native_image.git
+  image:
+  cupertino_icons: ^0.1.2
+  mlkit: ^0.14.1
+  firebase_ml_vision: ^0.9.2+2
+  camera: ^0.5.6+1
+  path_provider: ^1.4.0
+  json_annotation: ^2.0.0
+  http: ^0.12.0+1
+  dio: ^2.1.6
+  uuid: 2.0.1
+  shared_preferences: ^0.5.3
+  google_maps_flutter: 0.5.21+8
+  spider_chart: ^0.1.4
+  firebase_auth: ^0.14.0+1
+  firebase_messaging: ^5.1.6
+  intl: ^0.16.0
+  cloud_firestore: ^0.12.9+6
+  firebase_core: ^0.4.0+8
+  step_slider: ^1.0.0+1
+  flutter_circular_chart: ^0.1.0
+  charts_flutter: ^0.8.1
+  sortedmap: ^0.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
+  flutter_launcher_icons: any
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/faces/
+    - assets/model/
+    - assets/thumbnails/
+    - assets/icons/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon.png"
+  adaptive_icon_foreground: "assets/icons/icon.png"
+  adaptive_icon_background: "#ffffff"
