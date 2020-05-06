@@ -1,16 +1,16 @@
 # emo_tv
+ytvハッカソンに向けたアプリケーション．
 
-Application for YTV.
+core機能は画像認識．
 
-## Getting Started
+Flutter MLkitを用いて画像認識を行い，感情推定とを行う．
 
-This project is a starting point for a Flutter application.
+テレビの視聴者と番組自体が繋がることのできるアプリケーション．
 
-A few resources to get you started if this is your first Flutter project:
+## 技術
+- 画像認識: TFlite形式の学習済みのモデルを用いて推定を行う．リアルタイム顔認識を行い，機械学習により感情を推定する．
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- スレッド: 認識は各番組ごとに建てられたスレッドの中で行われる．
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 感情推定: 視聴者が番組（とCM）に対してどのような表情で見ているのかを取得し，感情を推定する．
+同じ番組を見ている人同士での共感ができるようになる．
